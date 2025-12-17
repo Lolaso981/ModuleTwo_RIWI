@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("font/gilroy/Gilroy-Light.ttf") format("truetype");
+}
+
+body {
+  padding: 100px 0 100px 0;
+  font-family: "Gilroy", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f1f0;
+}
+
+.header {
+  background-color: #fadcd9;
+  width: 1372px;
+  height: 101px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 20px;
+
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar__a {
+  text-decoration: none;
+  color: black;
+}
+.section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 1392px;
+  height: 854px;
+  gap: 20px;
+}
+
+.sectionFirst {
+  display: grid;
+  grid-template-rows: 476fr 351fr;
+  width: 920px;
+  height: 854px;
+  gap: 20px;
+}
+
+.sectionFirst__High {
+  display: grid;
+  grid-template-columns: 565px 330px;
+  gap: 20px;
+}
+
+.sectionFirst__High__card1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fadcd9;
+  border-radius: 20px;
+  padding: 30px 22px 90px 22px;
+  width: 521px;
+  height: 359px;
+}
+
+.sectionFirst__High__card1__container1 {
+  display: flex;
+  justify-content: end;
+}
+
+.sectionFirst__High__card1__img {
+  width: 119px;
+  height: 119px;
+}
+
+.sectionFirst__High__card1__p {
+  font-size: 56px;
+  width: 475px;
+  height: 168px;
+}
+
+.sectionFirst__High__card2 {
+  border-radius: 20px;
+}
+
+.sectionFirst__High__card2__img {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.sectionFirst__Low {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.sectionFirst__Low__card1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fadcd9;
+  border-radius: 20px;
+  padding: 30px 22px 40px 22px;
+  width: 404px;
+  height: 281px;
+}
+
+.sectionFirst__Low__card1__container1 {
+  display: flex;
+  justify-content: start;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sectionFirst__Low__card1__p {
+  font-size: 20px;
+  font-weight: lighter;
+  width: 296px;
+  height: 150px;
+}
+
+.sectionFirst__Low__card2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #f8afa6;
+  border-radius: 20px;
+  padding: 30px 22px 40px 22px;
+  width: 404px;
+  height: 281px;
+}
+
+.sectionFirst__Low__card2_container1 {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 38px;
+}
+
+.sectionFirst__Low__card2_p {
+  font-size: 15px;
+  width: 78px;
+  height: 34px;
+}
+
+.sectionFirst__Low__card2_p2 {
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+}
+.sectionSecond {
+  display: grid;
+  gap: 20px;
+}
+.sectionSecond__card1 {
+  background-color: #fadcd9;
+  border-radius: 20px;
+  padding: 30px 22px 0px 22px;
+  height: 696px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionSecond__card1__musea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+  align-items: center;
+}
+.sectionSecond__card1__musea__p__1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.sectionSecond__card1__musea__p {
+  margin: 0px;
+  width: 399px;
+  height: 72px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 0px;
+  border-bottom: #f8afa6 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sectionSecond__card1__musea__p2{
+  margin: 0px;
+  width: 399px;
+  height: 72px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectionSecond__card1__musea__img__1 {
+  width: 26px;
+  height: 26px;
+}
+.sectionSecond__card1__musea__img__2 {
+  padding-bottom: 20px;
+  width: 399px;
+  height: 269px;
+  border-bottom: #f8afa6 3px solid;
+  
+
+}
+
+.sectionSecond__card1__musea2 {
+  width: 350px;
+}
+.sectionSecond__card2 {
+  background-color: #fadcd9;
+  border-radius: 20px;
+  height: 101px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}

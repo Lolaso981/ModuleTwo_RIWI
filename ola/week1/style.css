@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 60rem;
+    /* Añadimos la imagen de fondo y propiedades para que se vea bien */
+    background-image: url("https://img1.wallspic.com/crops/4/7/0/1/21074/21074-area_urbana-paisaje_urbano-edificio-area_metropolitana-skyline_de_chicago-4305x2865.jpg  ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Importante para que .hero-text se posicione relativo a este header */
+    position: relative; 
+}
+
+/* El nuevo contenedor de texto que se centrará */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 20rem;
+    background-color: #8f86868e;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+header h1{
+    padding: 0;
+    margin: 0 0 1rem 0; /* Añadí un margen inferior para separar del párrafo */
+    /* text-align: center; */ /* Ya cubierto por .hero-text */
+}
+
+header p{
+    color: whitesmoke;
+    /* text-align: center; */ /* Ya cubierto por .hero-text */
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos de navegación */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+nav ul{
+    background-color: rgb(41, 39, 39);
+    margin: 0;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+/* Estilo para el enlace a GitHub */
+.github-link {
+    color: #fff;
+    background-color: #333;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block; /* Para que el padding y margin funcionen correctamente */
+    margin-top: 1rem;
+}
+
+.github-link:hover {
+    background-color: brown;
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(41, 39, 39);
+    padding: 2rem;
+    margin: 0%;
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    color:#fff
+}
+
+.about form {
+    color: #fff;
+}
+
+.about form label {
+    padding-left: 2rem;
+}
