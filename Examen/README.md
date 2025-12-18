@@ -20,7 +20,6 @@ Nexcent is a modern landing page designed for agencies, photographers, and organ
 - **Iconography and Assets:** Optimized PNG images located in the `./assets/` folder.
 
 ## 📂 Project Structure
-## 📂 Project Structure
 ```text
 ├── index.html                      # Main structure file
 ├── style.css                       # Stylesheet (not included in the snippet)
@@ -31,9 +30,7 @@ Nexcent is a modern landing page designed for agencies, photographers, and organ
     └── ...
 ```
 
-## 📂 Project Structure
-
-To view the project locally:
+## To view the project locally:
 
 1. **Clone the repository:** Open your terminal and run the following command:
 
