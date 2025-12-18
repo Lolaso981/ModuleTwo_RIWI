@@ -29,3 +29,21 @@ Nexcent is a modern landing page designed for agencies, photographers, and organ
     ├── Illustration_1.png
     ├── Icon(1).png
     └── ...
+
+## Instructions for Use
+
+To view the project locally:
+
+1. **Clone the repository:** Open your terminal and run the following command:
+
+``bash
+git clone https://github.com/Lolaso981/ModuleTwo_RIWI.git
+
+``
+2. **Navigate to the project directory:**
+
+``bash
+cd Exam
+
+``
+3. **Open the `index.html` file in your preferred web browser to view the landing page.
