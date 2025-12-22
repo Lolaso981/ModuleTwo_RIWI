@@ -34,21 +34,22 @@
     <main>
         <section id="sobre_mi" class="card">
             <h2>¿Quién soy?</h2>
-            <p>
+            <p id="bio-text">
                 Soy <b>Miguelangel Restrepo Grisales</b>, tengo 18 años y vivo en Medellín, Colombia.
                 Estudio programación en <b>Riwi</b> y me apasiona la tecnología, el diseño limpio
                 y aprender algo nuevo cada día. Me gusta crear proyectos simples, funcionales
                 y con buen estilo.
             </p>
+            <button onclick="changeBioText()">Ver detalles</button>
         </section>
 
         <section id="proyectos" class="card">
             <h2>Proyectos</h2>
-
-            <ul class="proyectos">
-                <li>Graduarme de riwi</li>
-                <li>Tener moto</li>
+            <ul id="more-projects" class="proyectos" style="display: none;">
+                <li>Graduarme de Riwi</li>
+                <li>Comprarme una moto</li>
             </ul>
+            <button onclick="toggleProjects()">Mostrar/Ocultar Proyectos</button>
         </section>
 
         <section id="contacto" class="card">
@@ -67,6 +68,6 @@
             </form>
         </section>
     </main>
-
+<script src="script.js"></script>
 </body>
 </html>
